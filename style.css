@@ -1,0 +1,135 @@
+* {
+    padding: 1px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.navbar {
+    position: fixed; /* Set the navbar position to fixed */
+    width: 100%; /* Make the navbar take up the entire width of the viewport */
+    z-index: 1000; /* Ensure the navbar is above other content */
+    background: linear-gradient(to right, pink, white);
+    border-top-left-radius: 125px;
+}
+
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: "Lobster", sans-serif;
+
+    color: blueviolet  !important;
+}
+
+.navbar-brand:hover {
+    color: bisque  !important;
+}
+.nav-link{
+    margin-right: 0px;
+    margin-left: 30px;
+  
+    color : black;
+    
+    font-family: 'Rubik' ,  sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: bisque !important;
+}
+.px-2{
+    height: 40px;
+    width: 70%;
+    border-radius: 60px;
+    outline: none;
+    margin-right:-35px ;
+    font-family: 'Rubik' ,  sans-serif;
+    border: 2px solid blueviolet;
+}
+
+.navbar-nav .fa-shopping-cart {
+    font-size: 22px; /* Adjust size as needed */
+    margin-left: 240px; /* Adjust margin to create space between search and cart */
+    margin-top: 10px;
+}
+.d-flex .btn {
+    height: 40px;
+    width: 100px; /* Adjust width as needed */
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.carousel-item{
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 80%;
+ 
+
+}
+.carousel-item h5{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'robot';
+}
+.carousel-item button{
+height: 45px;
+width: 35%;
+border: none;
+outline:none;
+background-color: blueviolet;
+color: aliceblue;
+font-weight: 700;
+border-radius: 60pc;
+position: center;
+}
+.text-center{
+    font-family: "Tauri", sans-serif;
+
+}
+.text-start{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100VH;
+    font-style: normal;
+  
+
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to right, pink, white);
+    color: black;
+    padding: 30px 0px 0px; /* Reduced padding */
+    border-top-left-radius: 125px;
+    font-size: 14px; /* Reduced font size */
+    line-height: 12px; /* Adjusted line height */
+
+  }
+  .footer-content .navbar-brand {
+    font-size: 18px; /* Change the font size as desired */
+  }
+  
+  .footer-content .col {
+    padding: 10px 30px; /* Add space between columns */
+  }
+ 
+  .footer-content .col:not(:last-child) {
+    margin-right: 20px; /* Add margin-right between columns */
+  }
+  
+  .footer-content .col:nth-child(1),
+  .footer-content .col:nth-child(2),
+.footer-content .col:nth-child(3) {
+  margin-top: 10px; /* Add space between the second and third columns */
+}
+  
+  .footer-content img {
+    max-width: 100px; /* Set maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+  }
